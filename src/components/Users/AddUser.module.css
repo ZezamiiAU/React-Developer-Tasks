@@ -6,3 +6,22 @@
 	display: flex;
 	justify-content: center;
 }
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.form label{
+	font-weight: 700;
+}
+.form input {
+	margin:8px 0;
+	border:solid 1px rgb(192, 191, 191);
+}
+.error{
+	font-size: smaller;
+	color: red;
+	margin-top:-10px;
+}
+
+ 
